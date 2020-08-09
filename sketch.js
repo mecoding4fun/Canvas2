@@ -63,7 +63,7 @@ function endPath(){
 function saveDrawing(){
   var refer = database.ref('drawings');
   var data = {
-    name: "Sadana",
+    name: "Tarun",
     drawing: drawing
   }
   var result = refer.push(data, dataSent);
